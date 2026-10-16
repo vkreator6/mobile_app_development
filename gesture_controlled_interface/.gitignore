@@ -1,0 +1,46 @@
+# Flutter and Dart generated files
+.dart_tool/
+.pub/
+.pub-cache/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+coverage/
+.widget_preview/
+**/doc/api/
+app.*.symbols
+app.*.map.json
+
+# Android build output and machine-specific settings
+.gradle/
+.kotlin/
+.cxx/
+.externalNativeBuild/
+**/android/local.properties
+**/android/captures/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/**/GeneratedPluginRegistrant.java
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Signing credentials
+**/android/key.properties
+*.jks
+*.keystore
+
+# Editor, system, and temporary files
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+
+# Keep app dependency versions reproducible
+!pubspec.lock

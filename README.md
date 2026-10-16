@@ -28,3 +28,17 @@ The app contains two screens. `HomeScreen` extends `StatelessWidget` because its
 - [Home screenshot](ui_design_lab/submission/screenshots/01_home.png)
 - [Initial counter screenshot](ui_design_lab/submission/screenshots/02_counter_initial.png)
 - [Updated counter screenshot](ui_design_lab/submission/screenshots/03_counter_updated.png)
+
+## Gesture-Controlled Interface
+
+This app uses a large gesture card: tapping changes its color, horizontal swipes report direction and update a count, and a long press resets the interaction. The animated color feedback and status message make each action visible.
+
+- [App source](gesture_controlled_interface/lib/main.dart)
+- [Run instructions](gesture_controlled_interface/README.md)
+- [Initial screen](gesture_controlled_interface/submission/screenshots/01-initial.png)
+- [Tap result](gesture_controlled_interface/submission/screenshots/02-tap.png)
+- [Swipe result](gesture_controlled_interface/submission/screenshots/03-swipe.png)
+- [Long-press reset](gesture_controlled_interface/submission/screenshots/04-long-press.png)
+- [300–400 word reflection](gesture_controlled_interface/submission/reflection.txt)
+
+The gestures were checked on an Android emulator and in Chrome on macOS. A native macOS build is also scaffolded; it requires Xcode.
