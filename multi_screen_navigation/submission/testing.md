@@ -62,3 +62,15 @@ The standard emulator launch did not leave a connected device, so the emulator e
 2. `screenshots/02_details.png` — topic passed from Home.
 3. `screenshots/03_planner.png` — topic received; 45 minutes selected.
 4. `screenshots/04_returned_result.png` — returned result displayed on the existing Details route.
+
+## Documentation supporting the resolution
+
+Flutter’s route-result guide explains awaiting a pushed route and returning a value with `Navigator.pop`. The API reference documents its optional typed result, and the State reference states that `setState` requires a mounted state. These sources support the implementation; the controlled failure itself is evidenced by this project's test log.
+
+Flutter. (n.d.-a). *mounted property*. https://api.flutter.dev/flutter/widgets/State/mounted.html
+
+Flutter. (n.d.-b). *Navigate to a new screen and back*. https://docs.flutter.dev/cookbook/navigation/navigation-basics
+
+Flutter. (n.d.-c). *pop<T extends Object?> static method*. https://api.flutter.dev/flutter/widgets/Navigator/pop.html
+
+Flutter. (n.d.-d). *Return data from a screen*. https://docs.flutter.dev/cookbook/navigation/returning-data
