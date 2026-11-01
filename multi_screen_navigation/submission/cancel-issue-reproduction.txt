@@ -1,0 +1,31 @@
+00:00 +0: loading <project>/test/cancel_reproduction.dart
+00:00 +0: return data, preserve saved state on cancel, and unwind stack
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextWidgetFinder:<Found 0 widgets with text "Session saved: 45 minutes": []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file://<project>/test/cancel_reproduction.dart:30:5)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file://<project>/test/cancel_reproduction.dart line 30
+The test description was:
+  return data, preserve saved state on cancel, and unwind stack
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:01 +0 -1: return data, preserve saved state on cancel, and unwind stack [E]
+  Test failed. See exception logs above.
+  The test description was: return data, preserve saved state on cancel, and unwind stack
+
+00:01 +0 -1: Some tests failed.
+
+Failing tests:
+  <project>/test/cancel_reproduction.dart: return data, preserve saved state on cancel, and unwind stack

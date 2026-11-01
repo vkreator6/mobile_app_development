@@ -1,0 +1,44 @@
+Resolving dependencies...
+Downloading packages...
+  cupertino_icons 1.0.9 (2.0.0 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.4 available)
+Got dependencies!
+5 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Running Gradle task 'assembleDebug'...
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+Running Gradle task 'assembleDebug'...                             32.4s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...        1,123ms
+D/FlutterJNI( 3664): Sending viewport metrics to the engine.
+VMServiceFlutterDriver: Isolate found with number: 4881109398532215
+VMServiceFlutterDriver: Isolate 4881109398532215 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 3664): 00:00 +0: return data, preserve saved state on cancel, and unwind stack
+VMServiceFlutterDriver: Connected to Flutter application.
+D/FlutterJNI( 3664): Sending viewport metrics to the engine.
+W/WindowOnBackDispatcher( 3664): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 3664): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 3664): app_time_stats: avg=358.75ms min=84.67ms max=899.31ms count=3
+D/EGL_emulation( 3664): app_time_stats: avg=141.95ms min=6.33ms max=661.17ms count=11
+D/ProfileInstaller( 3664): Installing profile for com.example.study_trail
+D/EGL_emulation( 3664): app_time_stats: avg=1434.62ms min=1434.62ms max=1434.62ms count=1
+D/EGL_emulation( 3664): app_time_stats: avg=80.52ms min=15.03ms max=169.81ms count=13
+D/EGL_emulation( 3664): app_time_stats: avg=101.91ms min=14.91ms max=210.08ms count=11
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+D/EGL_emulation( 3664): app_time_stats: avg=70.73ms min=16.16ms max=117.27ms count=15
+D/EGL_emulation( 3664): app_time_stats: avg=87.48ms min=17.81ms max=118.37ms count=12
+D/EGL_emulation( 3664): app_time_stats: avg=70.01ms min=16.53ms max=117.43ms count=15
+W/WindowOnBackDispatcher( 3664): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 3664): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 3664): app_time_stats: avg=87.48ms min=24.38ms max=119.14ms count=12
+D/EGL_emulation( 3664): app_time_stats: avg=69.90ms min=15.50ms max=118.81ms count=15
+D/EGL_emulation( 3664): app_time_stats: avg=87.63ms min=18.21ms max=118.25ms count=12
+I/flutter ( 3664): 00:11 +1: (tearDownAll)
+I/flutter ( 3664): 00:11 +2: All tests passed!
+D/EGL_emulation( 3664): app_time_stats: avg=3990.90ms min=750.17ms max=7231.62ms count=2
+All tests passed.

@@ -42,3 +42,18 @@ This app uses a large gesture card: tapping changes its color, horizontal swipes
 - [300–400 word reflection](gesture_controlled_interface/submission/reflection.txt)
 
 The gestures were checked on an Android emulator and in Chrome on macOS. A native macOS build is also scaffolded; it requires Xcode.
+
+## Multi-Screen Navigation in Flutter
+
+Study Trail contains three screens: Home, Topic Details, and Session Planner. Users explore a topic, choose a study duration, and return to the existing Details screen with their saved selection. Navigation uses `Navigator.push`, `Navigator.pop`, and typed route results. Canceling preserves any previously saved duration.
+
+- [App source](multi_screen_navigation/lib/main.dart)
+- [Run instructions](multi_screen_navigation/README.md)
+- [348-word reflection and APA references](multi_screen_navigation/submission/reflection.md)
+- [Testing and navigation issue reproduction](multi_screen_navigation/submission/testing.md)
+- [Home screenshot](multi_screen_navigation/submission/screenshots/01_home.png)
+- [Topic Details screenshot](multi_screen_navigation/submission/screenshots/02_details.png)
+- [Session Planner screenshot](multi_screen_navigation/submission/screenshots/03_planner.png)
+- [Returned result screenshot](multi_screen_navigation/submission/screenshots/04_returned_result.png)
+
+Static analysis, widget tests, and Android emulator integration tests passed. The troubleshooting report explicitly identifies the cancel-result bug as a controlled regression. The app and reflection were prepared with AI assistance; screenshots were captured from the running Android emulator.
